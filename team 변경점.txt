@@ -1,0 +1,12 @@
+axios에 get방식으로 전송하는데 왜 body썻었음 get은 query로 데이터 보냄
+axios 응답에 res.redirect, res.render는 안되는것같음 axios .then부분에 location.href써서 페이지 이동해야 할듯
+update부분에서 변수설정도 잘못됬고 db.team.update안에 문법도 잘못됨
+
+요청주소 다 잘못적음
+id를 적을수있는이유가 id:id여서인데 id: update이럴때도 그냥 id로 썻었음
+
+findOne 썻는데 왜 데이터를 updatedata[0]으로 받으려했엇음, findOne은 배열로 안받음
+
+썻던 변수 밑에서쓰려면 최상단에 변수 선언해줘야함
+
+teamup렌더할때 user는 안정해줬었음 
